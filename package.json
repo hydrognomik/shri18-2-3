@@ -1,0 +1,17 @@
+{
+  "name": "alg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "node index.js data/input.json",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.4.2"
+  },
+  "dependencies": {
+    "lodash.intersection": "^4.4.0"
+  }
+}
